@@ -25,6 +25,15 @@
                                     <segue destination="hTW-y8-ZDc" kind="show" id="eQG-F4-aFZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-zt-zDY">
+                                <rect key="frame" x="209" y="465" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2kf-ON-oMn" kind="show" id="Vm1-Fd-Qza"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -45,6 +54,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="2kf-ON-oMn" kind="show" id="2PA-UB-dxU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUH-qa-Z8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +73,7 @@
                     <view key="view" contentMode="scaleToFill" id="SII-1Y-gCu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.33021638980000001" green="0.46844264829999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dY1-BS-faM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,4 +135,7 @@
             <point key="canvasLocation" x="1044" y="978"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vm1-Fd-Qza"/>
+    </inferredMetricsTieBreakers>
 </document>
