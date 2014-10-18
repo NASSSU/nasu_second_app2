@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="1214" y="461"/>
         </scene>
-        <!--View Controller-->
+        <!--Orange View Controller-->
         <scene sceneID="3k5-aQ-u05">
             <objects>
-                <viewController id="hTW-y8-ZDc" sceneMemberID="viewController">
+                <viewController id="hTW-y8-ZDc" customClass="OrangeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CNN-4d-YNw"/>
                         <viewControllerLayoutGuide type="bottom" id="pHl-AD-3Kv"/>
@@ -109,12 +109,23 @@
                     <view key="view" contentMode="scaleToFill" id="lbs-vT-Esf">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vV5-is-KJV">
+                                <rect key="frame" x="142" y="269" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="button2" destination="vV5-is-KJV" id="9XO-o2-b1w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Vf-Wh-VNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="588" y="894"/>
+            <point key="canvasLocation" x="646" y="888"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ye8-85-hXn">
