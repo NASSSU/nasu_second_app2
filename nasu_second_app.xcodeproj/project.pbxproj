@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24114B6919F2712300166C27 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24114B6819F2712300166C27 /* OrangeViewController.m */; };
 		75B31DEF19F2689400A9461F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B31DEE19F2689400A9461F /* main.m */; };
 		75B31DF219F2689400A9461F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B31DF119F2689400A9461F /* AppDelegate.m */; };
 		75B31DF519F2689400A9461F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B31DF419F2689400A9461F /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24114B6719F2712300166C27 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
+		24114B6819F2712300166C27 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
 		75B31DE919F2689400A9461F /* nasu_second_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nasu_second_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B31DED19F2689400A9461F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B31DEE19F2689400A9461F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				75B31DF119F2689400A9461F /* AppDelegate.m */,
 				75B31DF319F2689400A9461F /* ViewController.h */,
 				75B31DF419F2689400A9461F /* ViewController.m */,
+				24114B6719F2712300166C27 /* OrangeViewController.h */,
+				24114B6819F2712300166C27 /* OrangeViewController.m */,
 				75B31DF619F2689400A9461F /* Main.storyboard */,
 				75B31DF919F2689400A9461F /* Images.xcassets */,
 				75B31DFB19F2689400A9461F /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24114B6919F2712300166C27 /* OrangeViewController.m in Sources */,
 				75B31DF519F2689400A9461F /* ViewController.m in Sources */,
 				75B31DF219F2689400A9461F /* AppDelegate.m in Sources */,
 				75B31DEF19F2689400A9461F /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				75B31E0E19F2689400A9461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75B31E0F19F2689400A9461F /* Build configuration list for PBXNativeTarget "nasu_second_appTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				75B31E1119F2689400A9461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
